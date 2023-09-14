@@ -1,0 +1,13 @@
+.ProfileComment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1vmin;
+    min-width: 10vw;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}

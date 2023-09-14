@@ -1,0 +1,102 @@
+.OnlineTopBar{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    color: white;
+}
+
+.CSearchBarDiv{
+    vertical-align: middle;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 9vh;
+    pointer-events: none;
+}
+
+.CSearchBarForm{
+    vertical-align: middle;
+    flex-direction: row;
+    background-color: #E8E7E7;
+    border-radius: 3vmin;
+    border: none;
+    height: 4vh;
+    font-size: calc(2vmin);
+    margin-left: 6vw;
+    margin-right: 6vw;
+    padding: 1vh 1vw;
+    width: 38vw;
+    font-weight: 800;
+}
+
+.CSearchBar {
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: #E8E7E7;
+    border-radius: 3vmin;
+    border: none;
+    color:rgba(3, 3, 3, 0.2);
+    opacity: 50%;
+    font-size: calc(3vmin);
+    width: 33vw;
+}
+
+.IconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Material Icons, serif;
+    font-size: calc(6vmin);
+    color: rgba(27, 59, 187, 1);
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+
+.IconDiv{
+    margin-left: 1vw;
+}
+
+.ProfileButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    vertical-align: middle;
+    font-family: Roboto, serif;
+    font-size: calc(4vmin);
+    font-weight: 600;
+    border-color: rgba(27, 59, 187, 1);
+    border-width: 2px;
+    height:6vh;
+    border-radius: 7vh;
+    width: 30vh;
+}
+
+.ImageDiv{
+    align-items: center;
+    vertical-align: middle;
+    height:6vh;
+}
+
+.testImage {
+    border-radius: 100%;
+    max-height: 6vh;
+}
+
+.TextDiv{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgba(27, 59, 187, 1);
+}
+
+.nav-link-ghost{
+    color:rgba(27, 59, 187, 1);
+    text-decoration: none;
+}

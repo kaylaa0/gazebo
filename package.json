@@ -1,0 +1,54 @@
+{
+  "name": "gazebo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-calendars": "^19.1.64",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.15.2",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-chat-widget": "^3.0.5",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-image-selector": "^1.1.2",
+    "react-images-upload": "^1.2.8",
+    "react-multiple-choice": "^2.0.2",
+    "react-onclickoutside": "^6.10.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "react-settings-pane": "^0.1.5",
+    "react-star-rating-component": "^1.4.1",
+    "save": "^2.4.0",
+    "styled-components": "^5.2.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

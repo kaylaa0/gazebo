@@ -1,0 +1,94 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1vmin;
+    min-width: 10vw;
+    min-height: 10vh;
+    width: 50vw;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-family: Roboto, serif;
+}
+
+.PosterDiv{
+
+}
+
+.PostDate{
+    font-family: Roboto, serif;
+    font-size: 2vmin;
+    padding-left: 3vw;
+}
+
+.PostImageDiv{
+    margin-top:2vh;
+    margin-bottom:1vh;
+}
+
+.PostTextDiv{
+    font-family: Roboto, serif;
+    font-size: 3vmin;
+    background-color: white;
+    border-radius: 3vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.PostStatsDiv{
+    margin-top:1vh;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.UpVoteButton{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.DownVoteButton{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.PostStats{
+    font-family: Roboto, serif;
+    font-size: 4vmin;
+    display:flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    width: 6vw;
+    justify-content: flex-end;
+}
+
+.StatsSymbol{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+    margin-left: 1vw;
+}
+
+.CommentButton{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    margin-left: 3vw;
+}
+
+.ReportButton{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    margin-left: 26vw;
+
+}

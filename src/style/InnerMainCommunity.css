@@ -1,0 +1,36 @@
+.InnerMainCommunityCard{
+    font-family: Roboto, serif;
+    font-size: calc(3vmin);
+    font-weight: 350;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 2vmin;
+}
+.ClubBadgesDiv{
+    position: absolute;
+}
+
+.ClubBadgesDivInner{
+    position: absolute;
+    top: -14.5vh;
+    left: -4.75vw;
+    border-radius: 2vmin;
+    min-width: 8vmin;
+    min-height: 4vmin;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.ClubNameDiv{
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    border-radius: 2vmin;
+}
+
+.nav-link-ghost{
+    color:rgba(255, 255, 255, 1);
+    text-decoration: none;
+}

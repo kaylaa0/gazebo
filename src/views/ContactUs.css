@@ -1,0 +1,99 @@
+.ContactUs {
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+
+.ContactUs-header {
+    zoom: 90%;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    vertical-align: middle;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.ContactUs-logo {
+    height: 13vh;
+    pointer-events: none;
+}
+
+.ContactUs-body {
+    zoom: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ShadedBox {
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Roboto, serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    width: 34vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SmallerTitleText{
+    zoom: 90%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.InputsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.InputBar {
+    background-color: #D1D1D1;
+    border-radius: 5px;
+    border: none;
+    color:rgba(0, 0, 0, 0.29);
+    padding: 20px 10px;
+    margin: 10px 10px;
+    font-weight: 550;
+    font-size: 20px;
+    width: 25vw;
+}
+
+.InputBarBig {
+    background-color: #D1D1D1;
+    border-radius: 5px;
+    border: none;
+    color:rgba(0, 0, 0, 0.29);
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-weight: 550;
+    font-size: 20px;
+    width: 25vw;
+    height: 5vw;
+    text-align: left;
+}
+
+.ButtonDiv {
+    font-size:20px;
+}
+
+.BottomTextDiv{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-link{
+    color:rgba(27, 59, 187, 1);
+}

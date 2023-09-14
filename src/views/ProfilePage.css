@@ -1,0 +1,239 @@
+.ProfilePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Roboto, serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ProfileArea{
+    margin-top: 6vh;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileBanner{
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vh;
+    background-size: cover;
+    width: 83vw;
+    height: 40vh;
+}
+
+.ProfileBannerPicture{
+    margin-top: 2vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2vmin solid darkred;
+    border-radius: 100%;
+    width: 30vmin;
+    height: 30vmin;
+}
+
+.ProfileBannerUserData{
+    margin-top: 13vh;
+    margin-left: 2vw;
+}
+.ProfileBannerName{
+    font-size: calc(8vmin);
+    font-weight: 700;
+    border-radius: 6vh;
+    padding: 0px 2vmin;
+}
+
+.ProfileBannerLastSeen{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(4vmin);
+    font-weight: 400;
+    text-align: center;
+    border-radius: 6vh;
+    padding: 0px 2vmin;
+}
+
+.ProfileBar{
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:1vh;
+    border-radius: 1vh;
+    height: 7vh;
+    width: 60vw;
+    padding-left: 23vw;
+    margin-bottom: 2vh;
+}
+
+.ProfileSideBar{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, serif;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 20vw;
+}
+
+.ProfileSideBarViewScope{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: calc(5vmin);
+    font-weight: 500;
+    border-radius: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-bottom:2vh;
+}
+
+.ProfileSideBarReputation{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: calc(4vmin);
+    font-weight: 450;
+    border-radius: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-bottom:2vh;
+}
+
+.ProfileSideBarFollowers{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: calc(4vmin);
+    font-weight: 450;
+    border-radius: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-bottom:2vh;
+}
+
+.ProfileSideBarAbout{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: calc(4vmin);
+    font-weight: 450;
+    border-radius: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-bottom:2vh;
+}
+
+.ProfileSideBarRecentVisitors{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: calc(4vmin);
+    font-weight: 450;
+    border-radius: 1vh;
+    width: 20vw;
+    text-align: center;
+    margin-bottom:2vh;
+}
+
+.ProfileFrame{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 83vw;
+}
+
+.ProfileContent{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 0.5vw;
+    width: 62vw;
+}
+
+.ProfileFeed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 44vw;
+    width: 44vw;
+    margin-right:2vw;
+}
+
+.CommentProfileFeed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 44vw;
+    width: 44vw;
+    margin-right:2vw;
+    margin-top:0vh;
+}
+
+.ProfileFeedSortingBar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: calc(5px + 1vw);
+    min-width: 42vw;
+    width: 42vw;
+    border-radius: 1vh;
+}
+
+.ProfileFeedSortingBarButtons{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ProfilePostWidgetDiv{
+    width: 18vw;
+}
+
+.Posts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 8vh;
+    padding-left: 4vw;
+}
+
+.ProfileCalendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64vw;
+}
+
+.MaterialIconDiv{
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Material Icons, serif;
+    font-size: calc(15px + 3vmin);
+    color: rgba(0, 0, 0, 1);
+    margin-left: 2vw;
+}

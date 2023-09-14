@@ -1,0 +1,9 @@
+### VS Code ###
+.vscode/
+
+# Dependencies
+/node_modules
+
+# Build
+package-lock.json
+/target

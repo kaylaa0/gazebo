@@ -1,0 +1,193 @@
+.Member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1vmin;
+    min-width: 10vw;
+    min-height: 10vh;
+}
+
+.MiniProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 12vh;
+    border-radius: 6vh;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margib-bottom: 2vh;
+}
+
+.MiniProfileImageDiv{
+    margin-right: 1vw;
+}
+
+.MiniProfileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+}
+
+.MiniProfileUsername{
+    font-family: Roboto, serif;
+    font-size: 5vmin;
+}
+
+.MiniProfileBadges{
+    font-family: Material Icons, serif;
+    font-size: 5vmin;
+}
+
+.PosterProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 12vh;
+    border-radius: 6vh;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+
+.PosterProfileImageDiv{
+    margin-right: 1vw;
+}
+
+.PosterProfileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+}
+
+.PosterProfileUsername{
+    font-family: Roboto, serif;
+    font-size: 5vmin;
+}
+
+.PosterProfileBadges{
+    font-family: Material Icons, serif;
+    font-size: 5vmin;
+}
+
+.CommenterProfile{
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20vw;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+
+.CommenterProfileImageDiv{
+    margin-bottom: 1vh;
+}
+
+.CommenterProfileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 100%;
+}
+
+.CommenterProfileUsername{
+    font-family: Roboto, serif;
+    font-size: 4vmin;
+}
+
+.CommenterProfileBadges{
+    font-family: Material Icons, serif;
+    font-size: 4vmin;
+}
+
+.ProfileCommenterProfile{
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 20vw;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+
+.ProfileCommenterProfileImageDiv{
+    margin-right: 2vw;
+}
+
+.ProfileCommenterProfileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 100%;
+}
+
+.ProfileCommenterProfileUsername{
+    font-family: Roboto, serif;
+    font-size: 4vmin;
+}
+
+.BallRenderProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 8vw;
+}
+
+.BallRenderProfileImageDiv{
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}
+
+.BallRenderProfileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+}
+
+.nav-link-ghost-black{
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+}

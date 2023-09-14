@@ -1,0 +1,35 @@
+.MainMenuOverlayCommunityAdding{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MainMenuOverlayCommunityAddingClubSelectDiv{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.MainMenuOverlayCommunityAddingClubSelect{
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+}
+
+.MainMenuOverlayCommunityAddingButtonDiv{
+    margin-top: 5vh;
+}
+
+.MainMenuOverlayCommunityAddingInputBar {
+    background-color: #D1D1D1;
+    border-radius: 5px;
+    border: none;
+    color:rgba(0, 0, 0, 0.29);
+    padding: 20px 10px;
+    margin: 10px 10px;
+    font-weight: 550;
+    font-size: 20px;
+    width: 25vw;
+}

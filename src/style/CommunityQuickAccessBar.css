@@ -1,0 +1,21 @@
+.CommunityQuickAccessBar{
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width: 5vw;
+    left: 1vw;
+    top: 20vh;
+    border-radius: 5vw;
+    background-color: rgba(27, 59, 187, 0.5);
+    z-index:7;
+    overflow-y: scroll;
+    padding-top:1vh;
+    padding-bottom:1vh;
+}
+
+
+.CommunityQuickAccessBar::-webkit-scrollbar {
+    display: none;
+}
